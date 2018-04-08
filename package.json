@@ -1,0 +1,22 @@
+{
+  "name": "TIDAL-Desktop",
+  "productName": "TIDAL Desktop",
+  "version": "1.0.0",
+  "description": "TIDAL Desktop Application for Linux",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/512x512.png --prune=true --out=release-builds"
+  },
+  "repository": "https://github.com/akoot/tidal-desktop",
+  "keywords": [
+    "Electron",
+    "TIDAL",
+    "linux"
+  ],
+  "author": "Akoot",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^1.8.4"
+  }
+}
