@@ -35,7 +35,7 @@ function createWindow () {
     globalShortcut.register('CmdOrCtrl+Shift+R', cycleRepeat)
 
     /* Create the window */
-    mainWindow = new BrowserWindow({width: 1350, height: 800, center: true, icon: './assets/icons/512x512', webPreferences: {plugins: true}})
+    mainWindow = new BrowserWindow({width: 1350, height: 800, center: true, icon: './assets/icons/512x512.png', webPreferences: {plugins: true}})
     mainWindow.on('closed', function () {
         mainWindow = null
     })
